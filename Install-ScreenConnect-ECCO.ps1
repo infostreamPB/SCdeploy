@@ -1,6 +1,6 @@
 
 # Install-ScreenConnect.ps1
-# Downloads and installs the ScreenConnect client (Vision Tech Group - BAST)
+# Downloads and installs the ScreenConnect client (Vision Tech Group - ECCO)
 
 $url = "https://cmd-visiontechgrpllc.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=ECCO&c=&c=&c=&c=&c=&c=&c="
 $downloadPath = "$env:TEMP\ScreenConnect.ClientSetup.msi"

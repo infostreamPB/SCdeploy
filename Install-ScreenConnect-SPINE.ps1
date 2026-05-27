@@ -1,8 +1,8 @@
 
 # Install-ScreenConnect.ps1
-# Downloads and installs the ScreenConnect client (Vision Tech Group - BAST)
+# Downloads and installs the ScreenConnect client (Vision Tech Group - SPINE)
 
-$url = "https://cmd-visiontechgrpllc.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=BAST&c=&c=&c=&c=&c=&c=&c="
+$url = "https://cmd-visiontechgrpllc.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=SPINE&c=&c=&c=&c=&c=&c=&c="
 $downloadPath = "$env:TEMP\ScreenConnect.ClientSetup.msi"
 
 Write-Host "Downloading ScreenConnect client..." -ForegroundColor Cyan
